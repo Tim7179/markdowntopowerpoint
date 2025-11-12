@@ -1,0 +1,15 @@
+# 忽略不需要複製到 Docker 映像中的檔案
+
+# 這可以加快建置速度並縮小映像體積
+pycache/
+*.pyc
+*.pyo
+*.pyd
+.Python
+.DS_Store
+.git
+.gitignore
+.venv/
+venv/
+env/
+*.env
